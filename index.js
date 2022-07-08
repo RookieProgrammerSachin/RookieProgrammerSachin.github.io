@@ -40,7 +40,7 @@ function starter(){
 	if (start){
 		start = false;
 		document.getElementById("toggle").innerHTML = "PAUSE";
-		intervalVar = setInterval(count, 1);
+		intervalVar = setInterval(count, 10);
 	}
 	else{
 		start = true;
